@@ -1,0 +1,2 @@
+var t=document.querySelector("div.wall"),e=document.querySelector("img.spider"),p={w:parseInt(getComputedStyle(t).width.split("px").join("")),h:parseInt(getComputedStyle(t).height.split("px").join(""))},i={w:parseInt(getComputedStyle(e).width.split("px").join("")),h:parseInt(getComputedStyle(e).height.split("px").join(""))};e.style.top=p.h/2-i.h/2+"px",e.style.left=p.w/2-i.w/2+"px";
+//# sourceMappingURL=index.3e0dbb07.js.map
